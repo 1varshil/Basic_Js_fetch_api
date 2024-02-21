@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+<body>
+    <p>Hello</p>
+
+        <script>
+            fetch('https://api.nationalize.io/?name=Bhavesh')
+            .then((res)=>res.json())
+            .then((data)=>console.log(JSON.stringify(data)));
+            console.log('adsjb');
+
+            // //hoisting in var,let and const
+            //     console.log(a);
+            //     var a = 55;
+
+        </script>
+    
+</body>
+</html>
